@@ -3,6 +3,13 @@ body {
     margin: 0 auto;
     max-width: 100vw;
     padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    width: 100%;
+    height: auto;
 }
 
 h1 {
@@ -23,7 +30,7 @@ nav {
     margin-bottom: 20px;
 }
 
-nav a {
+nav a, h2 {
     text-decoration: none;
     color: white;
     font-family: 'Londrina Shadow', cursive;
@@ -31,12 +38,17 @@ nav a {
 }
 
 .cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));;
-    grid-gap: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
-.card1 {
+section {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
     background: white;
     color:black;
     box-shadow: 0 3px 6px rgba(0,0,0,1);
@@ -44,9 +56,12 @@ nav a {
     font-size: 14px;
     text-align: center;
     padding: 20px;
+    margin: 10px;
+    max-width: 300px;
+    max-height: 400px;
 }
 
-.card1:hover {
+.card:hover {
     transform: scale(1.1);
     /* box-shadow: 0 2px 2px rgba(0,0,0,.70); */
     z-index: 99;
