@@ -17,16 +17,19 @@ h1 {
   font-family: 'Reenie Beanie', cursive;
   font-size: 40px;
   color: #fffffe;
+  margin: 20px;
 }
 
 nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-self: flex-start;
+  display: block;
+  background: #004643;
+  padding: 10px;
+  /* flex-direction: row;
+  align-self: flex-start; */
   position: sticky;
   top: 0;
   z-index: 99;
+  border-bottom: 6px dotted #f9bc60;
 }
 
 a:hover {
@@ -39,12 +42,12 @@ h2 {
   color: #abd1c6;
   font-family: 'Londrina Shadow', cursive;
   font-size: 30px; 
+  padding: 20px;
 }
 
 .cards {
   display: flex;
   flex-direction: column;
-  border-top: 6px dotted #f9bc60;
   padding:30px;
 }
 
