@@ -21,14 +21,13 @@ h1 {
 }
 
 nav {
-  display: block;
+  display: flex;
+  flex-direction: row;
   background: #004643;
   padding: 10px;
-  /* flex-direction: row;
-  align-self: flex-start; */
   position: sticky;
   top: 0;
-  z-index: 99;
+  z-index: 9999;
   border-bottom: 6px dotted #f9bc60;
 }
 
@@ -36,7 +35,7 @@ a:hover {
     color: #f9bc60;
 }
 
-nav a,
+.nav-link,
 h2 {
   text-decoration: none;
   color: #abd1c6;
@@ -45,6 +44,38 @@ h2 {
   padding: 20px;
 }
 
+.switcher {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li a {
+  display: block;
+  float: right;
+  width: 20px;
+  height: 20px;
+  margin: 0 15px 0 0;
+  border-radius: 100%;
+}
+
+.teal {
+  background-color: #004643;
+  border: 3px solid #f9bc60;
+}
+
+.blue {
+  background-color: #232946;
+  border: 3px solid #eebbc3;
+}
+
+.maroon {
+  background-color: #55423d;
+  border: 3px solid #ffc0ad;
+}
 .cards {
   display: flex;
   flex-direction: column;
@@ -68,9 +99,10 @@ section {
   text-align: center;
   padding: 20px;
   margin: 10px;
+  min-width: 250px;
   max-width: 300px;
-  /* max-height: 400px; */
-  height:auto;
+  min-height: 400px;
+  /* height:auto; */
 }
 
 .card:hover {
