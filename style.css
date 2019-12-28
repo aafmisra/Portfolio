@@ -169,6 +169,7 @@ footer a, p a {
   nav {
     flex-direction: column;
   }
+}
 
 
 
@@ -177,30 +178,30 @@ body.teal {
   background: #004643;
 }
 
-nav.teal {
+body.teal nav {
   background: #004643;
   border-bottom: 6px dotted #f9bc60;
 }
 
-article.teal {
+body.teal article {
   background: #abd1c6;
   color: #001e1d;
 }
 
-h2.teal {
+body.teal h2 {
   color: #004643;
 }
 
-button.teal {
+body.teal button {
   background: #e16162;
   color: #001e1d;
 }
 
-a.teal:hover {
+body.teal a:hover {
     color: #f9bc60;
 }
 
-footer.teal {
+body.teal footer {
   background: #e16162;
   color: #001e1d;
 }
@@ -212,30 +213,30 @@ body.blue {
   background: #232946;
 }
 
-nav.blue {
+body.blue nav {
   background: #232946;
   border-bottom: 6px dotted #eebbc3;
 }
 
-article.blue {
+body.blue article {
   background: #b8c1ec;
   color: #121629;
 }
 
-h2.blue {
+body.blue h2 {
   color: #232946;
 }
 
-button.blue {
+body.blue button {
   background: #eebbc3;
   color: #121629;
 }
 
-a.blue:hover {
+body.blue a:hover {
     color: #fffffe;
 }
 
-footer.blue {
+body.blue footer {
   background: #eebbc3;
   color: #121629;
 }
@@ -246,30 +247,30 @@ body.maroon {
   background: #55423d;
 }
 
-nav.maroon {
+body.maroon nav {
   background: #55423d;
   border-bottom: 6px dotted #e78fb3;
 }
 
-article.maroon {
+body.maroon article {
   background: #ffc0ad;
   color: #271c19;
 }
 
-h2.maroon {
+body.maroon h2 {
   color: #55423d;
 }
 
-button.maroon {
+body.maroon button {
   background: #9656a1;
   color: #140d0b;
 }
 
-a.maroon:hover {
+body.maroon a:hover {
     color: #e78fb3;
 }
 
-footer.maroon {
+body.maroon footer {
   background: #9656a1;
   color: #271c19;
 }
