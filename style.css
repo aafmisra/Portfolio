@@ -35,13 +35,11 @@ a:hover {
     color: #f9bc60;
 }
 
-.nav-link,
-h2 {
+.nav-link, h2 {
   text-decoration: none;
-  color: #abd1c6;
+  color: #004643;
   font-family: 'Londrina Shadow', cursive;
   font-size: 30px; 
-  padding: 20px;
 }
 
 .switcher {
@@ -91,7 +89,7 @@ section {
 }
 
 .card {
-  background: #fffffe;
+  background: #abd1c6;
   color: #001e1d;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 1);
   font-family: Raleway, sans-serif;
@@ -99,7 +97,7 @@ section {
   text-align: center;
   padding: 20px;
   margin: 10px;
-  min-width: 250px;
+  min-width: 200px;
   max-width: 300px;
   min-height: 400px;
   /* height:auto; */
@@ -125,10 +123,23 @@ img {
 }
 
 footer {
-    background: #e16162;
-    width: 100%;
-    height: auto;
-    margin: 0;
+  background: #e16162;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  color: #001e1d;
+  font-family: Raleway, sans-serif;
+  font-size: 14px;
+}
+
+footer p {
+  float: right;
+}
+
+footer a {
+  display: block;
+  text-decoration: none;
+  color: #001e1d;
 }
 
 
