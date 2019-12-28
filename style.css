@@ -66,17 +66,17 @@ li a {
   border-radius: 100%;
 }
 
-.teal {
+.teal-button {
   background-color: #004643;
   border: 3px solid #f9bc60;
 }
 
-.blue {
+.blue-button {
   background-color: #232946;
   border: 3px solid #eebbc3;
 }
 
-.maroon {
+.maroon-button {
   background-color: #55423d;
   border: 3px solid #ffc0ad;
 }
@@ -87,13 +87,13 @@ li a {
   padding:30px;
 }
 
-/* section {
+section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
   align-content: center;
-} */
+}
 
 .card {
   background: #abd1c6;
@@ -119,6 +119,7 @@ button {
   background: #e16162;
   color: #001e1d;
   font-family: Raleway, sans-serif;
+  font-weight: bold;
   border-radius: 6px;
   padding: 5px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, .5);
@@ -168,3 +169,107 @@ footer a, p a {
   nav {
     flex-direction: column;
   }
+
+
+
+
+body.teal {
+  background: #004643;
+}
+
+nav.teal {
+  background: #004643;
+  border-bottom: 6px dotted #f9bc60;
+}
+
+article.teal {
+  background: #abd1c6;
+  color: #001e1d;
+}
+
+h2.teal {
+  color: #004643;
+}
+
+button.teal {
+  background: #e16162;
+  color: #001e1d;
+}
+
+a.teal:hover {
+    color: #f9bc60;
+}
+
+footer.teal {
+  background: #e16162;
+  color: #001e1d;
+}
+
+
+
+
+body.blue {
+  background: #232946;
+}
+
+nav.blue {
+  background: #232946;
+  border-bottom: 6px dotted #eebbc3;
+}
+
+article.blue {
+  background: #b8c1ec;
+  color: #121629;
+}
+
+h2.blue {
+  color: #232946;
+}
+
+button.blue {
+  background: #eebbc3;
+  color: #121629;
+}
+
+a.blue:hover {
+    color: #fffffe;
+}
+
+footer.blue {
+  background: #eebbc3;
+  color: #121629;
+}
+
+
+
+body.maroon {
+  background: #55423d;
+}
+
+nav.maroon {
+  background: #55423d;
+  border-bottom: 6px dotted #e78fb3;
+}
+
+article.maroon {
+  background: #ffc0ad;
+  color: #271c19;
+}
+
+h2.maroon {
+  color: #55423d;
+}
+
+button.maroon {
+  background: #9656a1;
+  color: #140d0b;
+}
+
+a.maroon:hover {
+    color: #e78fb3;
+}
+
+footer.maroon {
+  background: #9656a1;
+  color: #271c19;
+}
