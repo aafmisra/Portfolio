@@ -18,8 +18,21 @@ function changeColor(evt) {
   } else if (buttonColorClicked === 'blue') {
     document.body.className = '';
     document.body.classList.add('blue');
+    // window.sessionStorage.setItem('document.body.className', 'blue');
   } else if (buttonColorClicked === 'maroon') {
     document.body.className = '';
     document.body.classList.add('maroon');
   }
 }
+
+// let button = document.getElementsByClassName("button");
+
+// for (let i = 0; i < button.length; i++) {
+// button[i].addEventListener("click", function() {
+//     window.sessionStorage.getItem("document.body.className");
+// });
+// }
+
+// function getColorScheme() {
+//     window.sessionStorage.getItem("className");
+// }

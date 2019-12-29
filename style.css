@@ -104,9 +104,9 @@ section {
   text-align: center;
   padding: 20px;
   margin: 10px;
-  min-width: 200px;
-  max-width: 300px;
-  min-height: 400px;
+  min-width: 150px;
+  max-width: 275px;
+  height: 450px;
   /* height:auto; */
 }
 
@@ -130,6 +130,7 @@ button {
 img {
   max-width: 50%;
   height: auto;
+  margin: 0;
 }
 
 .round {
@@ -233,11 +234,11 @@ body.blue button {
 }
 
 body.blue a:hover {
-    color: #fffffe;
+    color: #eebbc3;
 }
 
 body.blue footer {
-  background: #eebbc3;
+  background: #fffffe;
   color: #121629;
 }
 
@@ -267,10 +268,10 @@ body.maroon button {
 }
 
 body.maroon a:hover {
-    color: #e78fb3;
+    color: #9656a1;
 }
 
 body.maroon footer {
-  background: #9656a1;
+  background: #e78fb3;
   color: #271c19;
 }
