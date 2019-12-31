@@ -6,6 +6,8 @@
 // link hover color
 // footer color
 
+document.body.className = localStorage.getItem('color');
+
 const colorSwitcher = document.querySelector('.switcher');
 
 colorSwitcher.addEventListener('click', changeColor);
@@ -15,24 +17,14 @@ function changeColor(evt) {
   if (buttonColorClicked === 'teal') {
     document.body.className = '';
     document.body.classList.add('teal');
+    window.localStorage.setItem('color', 'teal');
   } else if (buttonColorClicked === 'blue') {
     document.body.className = '';
     document.body.classList.add('blue');
-    // window.sessionStorage.setItem('document.body.className', 'blue');
+    window.localStorage.setItem('color', 'blue');
   } else if (buttonColorClicked === 'maroon') {
     document.body.className = '';
     document.body.classList.add('maroon');
+    window.localStorage.setItem('color', 'maroon');
   }
 }
-
-// let button = document.getElementsByClassName("button");
-
-// for (let i = 0; i < button.length; i++) {
-// button[i].addEventListener("click", function() {
-//     window.sessionStorage.getItem("document.body.className");
-// });
-// }
-
-// function getColorScheme() {
-//     window.sessionStorage.getItem("className");
-// }
